@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Tag } from '../../../shared/models/tag';
-import { FoodService } from '../../../service/food.service';
+import { FoodService } from '../../../services/food.service';
 
 @Component({
   selector: 'app-tags',

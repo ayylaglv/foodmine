@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Food } from '../../../shared/models/food';
-import { FoodService } from '../../../service/food.service';
+import { FoodService } from '../../../services/food.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
