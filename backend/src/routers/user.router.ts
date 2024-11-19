@@ -61,6 +61,7 @@ router.post(
 );
 
 const generateTokenReponse = (user: User) => {
+  console.log("Secret key used for JWT:", process.env.JWT_SECRET!);
   const token = jwt.sign(
     {
       email: user.email,
